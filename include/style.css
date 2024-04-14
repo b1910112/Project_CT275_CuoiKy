@@ -1,0 +1,74 @@
+
+.navbar-brand img {
+    height: 30px; /* Điều chỉnh kích thước logo */
+}
+
+.navbar-nav .nav-link {
+    color: #fff; /* Màu chữ của các tab */
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Màu nền khi hover */
+    border-radius: 5px; /* Bo tròn viền khi hover */
+}
+
+.dropdown-menu {
+    border: none;
+    border-radius: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-item {
+    color: #333;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+}
+
+.dropdown-item:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Màu nền khi hover */
+    border-radius: 5px; /* Bo tròn viền khi hover */
+}
+
+.dropdown-divider {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-menu {
+    padding: 0;
+}
+
+.form-control {
+    border-color: #0056b3; /* Màu border của ô nhập liệu */
+    border-radius: 2rem;
+}
+
+.btn-outline-success {
+    border-color: #0056b3; /* Màu border của nút tìm kiếm */
+    color: #0056b3; /* Màu chữ của nút tìm kiếm */
+    border-radius: 2rem;
+}
+
+.btn-outline-success:hover {
+    background-color: #0056b3; /* Màu background khi hover của nút tìm kiếm */
+    color: #fff; /* Màu chữ khi hover của nút tìm kiếm */
+}
+
+.input-group-text {
+    background-color: #0056b3; /* Màu nền của button search */
+    border-color: #0056b3; /* Màu border của button search */
+    color: #fff; /* Màu chữ của button search */
+    border-radius: 0 2rem 2rem 0; /* Bo tròn góc của button search */
+}
+
+.input-group-text:hover {
+    background-color: #003d7f; /* Màu nền khi hover của button search */
+    border-color: #003d7f; /* Màu border khi hover của button search */
+    color: #fff; /* Màu chữ khi hover của button search */
+}
+
+.form-control:focus {
+    box-shadow: none; /* Loại bỏ đổ bóng khi focus vào ô nhập liệu */
+}
